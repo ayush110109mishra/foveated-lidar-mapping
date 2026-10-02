@@ -65,29 +65,7 @@ When presenting to SIH judges, follow this concise 4-step sequence:
    - Click corridor focus buttons: **`Ego`** ($Y=0\text{m}$), **`Center`** ($Y=15\text{m}$), and **`Ahead`** ($Y=32\text{m}$).
    - Switch Color Mode to **`Elevation`** to highlight ground height gradients from Blue (low) to Red (high).
 5. **Open Benchmark Modal:**
-   - Click **`BENCHMARK COMPARISON`** in the top header to display the analytical breakdown showing the **$97.29\%$ address reduction**.
-
----
-
-## 💻 Local Development Setup (For Offline Presentations)
-
-If you wish to run the entire stack locally on your presentation laptop:
-
-### Terminal 1: Backend Perception Server
-```powershell
-cd backend
-npm install
-npm run dev
-```
-- REST Health: `http://localhost:8000/api/v1/health`
-- WebSocket: `ws://localhost:8000/ws/stream`
-
-### Terminal 2: Frontend 3D Dashboard
-```powershell
-cd frontend
-npm install
-npm run dev
-```
+   - Click **`BENCHMARK COMPARISON`** in the top header to display the analytical breakdown showing the **$97.29\%$ address reductio
 - Dashboard URL: `http://localhost:3000`
 
 ---
